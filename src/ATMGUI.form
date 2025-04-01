@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ATMGUI">
+  <grid id="27dc6" binding="root" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="638" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="c20be" binding="tabbedPane1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="ef34e" layout-manager="GridLayoutManager" row-count="2" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="30" left="30" bottom="50" right="30"/>
+            <constraints>
+              <tabbedpane title="ATM User"/>
+            </constraints>
+            <properties>
+              <background color="-3342388"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="201fe" class="javax.swing.JButton" binding="depositButton" default-binding="true">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="50" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <opaque value="true"/>
+                  <text value="Deposit"/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+              <component id="aa284" class="javax.swing.JButton" binding="withdrawButton" default-binding="true">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="50" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Withdraw"/>
+                </properties>
+              </component>
+              <component id="1fa09" class="javax.swing.JButton" binding="checkBalanceButton" default-binding="true">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="50" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Check Balance"/>
+                </properties>
+              </component>
+              <component id="f61f5" class="javax.swing.JButton" binding="logoutButton" default-binding="true">
+                <constraints>
+                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="50" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Logout"/>
+                </properties>
+              </component>
+              <grid id="ac9a3" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="30" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-3342388"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="ca29" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Enter Account ID:"/>
+                    </properties>
+                  </component>
+                  <component id="527d3" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="9db1e" class="javax.swing.JRadioButton" binding="depositAccountRadioButton" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3342388"/>
+                      <selected value="true"/>
+                      <text value="Deposit Account"/>
+                    </properties>
+                  </component>
+                  <component id="d90e9" class="javax.swing.JRadioButton" binding="currentAccountRadioButton" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3342388"/>
+                      <text value="CurrentAccount"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="87c3f" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="30" left="40" bottom="80" right="40"/>
+            <constraints>
+              <tabbedpane title="Bank Officer&#10;"/>
+            </constraints>
+            <properties>
+              <background color="-3342337"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="c709" class="javax.swing.JButton" binding="changeAIRButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="50" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Change AIR"/>
+                </properties>
+              </component>
+              <component id="649ea" class="javax.swing.JButton" binding="changeOverdraftLimitButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="50" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Change Overdraft Limit"/>
+                </properties>
+              </component>
+              <component id="5f236" class="javax.swing.JButton" binding="createNewAccountButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="50" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Create New Account"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>
