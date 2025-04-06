@@ -17,7 +17,7 @@
         <properties/>
         <border type="none"/>
         <children>
-          <grid id="ef34e" layout-manager="GridLayoutManager" row-count="2" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+          <grid id="ef34e" layout-manager="GridLayoutManager" row-count="2" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
             <margin top="30" left="30" bottom="50" right="30"/>
             <constraints>
               <tabbedpane title="ATM User"/>
@@ -60,20 +60,20 @@
                   <text value="Check Balance"/>
                 </properties>
               </component>
-              <component id="f61f5" class="javax.swing.JButton" binding="logoutButton" default-binding="true">
+              <component id="f61f5" class="javax.swing.JButton" binding="policyButton" default-binding="true">
                 <constraints>
-                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                  <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
                     <minimum-size width="50" height="50"/>
                   </grid>
                 </constraints>
                 <properties>
-                  <text value="Logout"/>
+                  <text value="Policy"/>
                 </properties>
               </component>
               <grid id="ac9a3" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
                 <margin top="0" left="0" bottom="30" right="0"/>
                 <constraints>
-                  <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
                   <background color="-3342388"/>
@@ -117,6 +117,16 @@
                   </component>
                 </children>
               </grid>
+              <component id="4b26b" class="javax.swing.JButton" default-binding="true">
+                <constraints>
+                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="50" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Logout"/>
+                </properties>
+              </component>
             </children>
           </grid>
           <grid id="87c3f" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
